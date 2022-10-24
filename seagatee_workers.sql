@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 21, 2022 at 08:47 AM
+-- Generation Time: Oct 24, 2022 at 11:02 AM
 -- Server version: 5.6.23-cll-lve
 -- PHP Version: 7.4.30
 
@@ -163,8 +163,8 @@ INSERT INTO `employees` (`employee_id`, `designation_id`, `department_id`, `name
 (48, 5, 4, 'KIMERA NOBERT ', 'male', '+256773064788', '1a7fe3564e6e39d9058dece4e606986e', 'active', '2022-10-13 11:58:32', 'user.jpg', NULL),
 (49, 5, 4, 'AYIKOBUA GILBERT', 'male', '0772574585', '476d4aebd40139a9dc80e8b26d16cf32', 'active', '2022-10-13 13:04:03', 'user.jpg', '0838'),
 (50, 16, 5, 'James Kawooya ', 'male', '0775593300', '510cd91d372bb8722cb4ad6f4633d562', 'active', '2022-10-13 14:49:47', 'user.jpg', NULL),
-(51, 5, 4, 'OMUL MAXWEL ', 'male', '0773190865', '8f48489d747471b22849a1b0a48adf14', 'active', '2022-10-13 16:31:19', 'user.jpg', NULL),
-(52, 5, 4, 'Aliyo Benard', 'male', '0708669927', 'c5bc14f9b1be1dba089e43f22c7daf4a', 'active', '2022-10-14 04:41:35', 'user.jpg', '6327'),
+(51, 5, 4, 'OMUL MAXWEL ', 'male', '0773190865', 'e4a1b85dd4a2674f46891baf412121ea', 'active', '2022-10-13 16:31:19', 'user.jpg', '0312'),
+(52, 5, 4, 'Aliyo Benard', 'male', '0708669927', 'c5bc14f9b1be1dba089e43f22c7daf4a', 'active', '2022-10-14 04:41:35', 'user.jpg', '4318'),
 (54, 5, 6, 'kulubya Sunde ', 'male', '0775192105', 'f49a2373c2912df5ec26c3aec9c221db', 'active', '2022-10-14 06:34:10', 'user.jpg', NULL),
 (55, 15, 6, 'NYAKUNI SIMON ', 'male', '0782410969', '7192392767481258aba7b6ec8486c7b2', 'active', '2022-10-14 06:43:33', 'user.jpg', NULL),
 (56, 4, 2, 'abega Nixon AYI ', 'male', '0771801722', '50e952932456bf35bdb605d3c24fcc23', 'active', '2022-10-14 06:43:57', 'user.jpg', NULL),
@@ -174,7 +174,7 @@ INSERT INTO `employees` (`employee_id`, `designation_id`, `department_id`, `name
 (61, 10, 4, 'Nalubuga Patricia Doreen', 'male', '0706539595', '6bc4ee0a1acd57a606055d14f084b6c7', 'active', '2022-10-15 05:23:44', 'user.jpg', NULL),
 (62, 11, 3, 'Audam Ismail Hassan', 'male', '0779706292', '0186a39254387e5a27dabb352e329a67', 'active', '2022-10-15 06:52:00', 'user.jpg', NULL),
 (63, 5, 4, 'Adiga Samuel ', 'male', '0772840826', '31345467d92a21e00a20886964f1adc7', 'active', '2022-10-15 07:04:58', 'user.jpg', NULL),
-(64, 5, 6, 'Mukose Nelson ', 'male', '+256779704927', 'c24366bf1d6b67bae5908af928a335d4', 'active', '2022-10-15 07:08:59', 'user.jpg', NULL),
+(64, 5, 6, 'Mukose Nelson ', 'male', '+256779704927', 'c24366bf1d6b67bae5908af928a335d4', 'active', '2022-10-15 07:08:59', 'user.jpg', '2719'),
 (65, 5, 4, 'karungi conard', 'male', '0784114772', 'cc1a160e38f278ac836e9fbae6f29194', 'active', '2022-10-15 07:11:48', 'user.jpg', NULL),
 (66, 5, 6, 'Mukose Nelson ', 'male', '+256785377177', 'bd12897a34cb05f10bb220a635af9620', 'active', '2022-10-15 07:15:26', 'user.jpg', NULL),
 (67, 15, 6, 'Stephen okello ', 'male', '0782965457', '5c96a27831763edb3f42d9532eae230a', 'active', '2022-10-15 07:20:53', 'user.jpg', NULL),
@@ -182,7 +182,12 @@ INSERT INTO `employees` (`employee_id`, `designation_id`, `department_id`, `name
 (69, 5, 6, 'Sendawula Dennis ', 'male', '0753223238', 'eabb93be38727860c01f97b172c53c0e', 'active', '2022-10-17 07:15:26', 'user.jpg', NULL),
 (70, 13, 2, 'Test User', 'male', '0758179068', '139301eefbca2f6540bf4c023a1d6921', 'active', '2022-10-17 12:19:12', 'user.jpg', NULL),
 (71, 5, 6, 'Kiige Daniel', 'male', '0774225387', '116013f87948ba04fc826b63b18ecbe0', 'active', '2022-10-21 09:13:58', 'user.jpg', NULL),
-(72, 10, 4, 'NAKAJUBI HASIFA', 'male', '256704467736', '79c3556fc3228bcb7c9f384a0d8d2217', 'active', '2022-10-21 10:02:59', 'user.jpg', NULL);
+(72, 10, 4, 'NAKAJUBI HASIFA', 'male', '0704467736', '74efd3dd976a863adc9b7e62b28e4351', 'active', '2022-10-21 10:02:59', 'user.jpg', '8813'),
+(73, 5, 3, 'Aluka Muhammad ', 'male', '0775887305', '6583617f68840b9aef4ea4e078f35484', 'active', '2022-10-21 13:33:17', 'user.jpg', NULL),
+(74, 16, 7, 'mayanja bob', 'male', '0772522663', '58b1216b06850385d9a4eadbedc806c4', 'active', '2022-10-22 05:14:16', 'user.jpg', NULL),
+(75, 5, 4, 'KIMERA NOBERT ', 'male', '0773064788', '1a7fe3564e6e39d9058dece4e606986e', 'active', '2022-10-22 05:58:54', 'user.jpg', NULL),
+(76, 4, 2, 'Wasswa Jotham', 'male', '0701370823', '2e99bf4e42962410038bc6fa4ce40d97', 'active', '2022-10-22 06:04:03', 'user.jpg', '1647'),
+(77, 5, 4, 'muhumuza Edrisa ', 'male', '0787424184', 'fb2c122760428547bbe280b3ec713db8', 'active', '2022-10-24 05:36:40', 'user.jpg', NULL);
 
 -- --------------------------------------------------------
 
@@ -279,7 +284,37 @@ INSERT INTO `tasks` (`task_id`, `task_name`, `task_desc`, `location_name`, `loca
 (128, 'Zuku', 'Project Management ', 'Office ', 0.3422649, 32.5676, 39, '2022-10-20 22:05:57', '2022-10-20 22:08:31', 'Kampala', 'Kampala', 'Kampala', 'Kampala, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.3422641, 32.5676003),
 (129, 'daily reports and activation of clients ', 'activate clients \nand making daily reports ', 'home ', 0.3348375, 32.4667005, 36, '2022-10-20 23:54:31', '2022-10-21 04:23:48', 'Wakiso', 'Kalambi_kiwumu', 'Wakiso', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Kalambi_kiwumu', 0.3348849, 32.4666987),
 (130, 'Tilenga project', 'designs ', 'Buliisa', 2.1182526, 31.4128383, 38, '2022-10-21 00:24:43', '2022-10-21 04:13:46', 'Buliisa', 'Bulisa', 'Buliisa', 'Buliisa, Bulisa on Bulisa road', 'Buliisa, Bulisa on Bulisa road', 'Bulisa', 2.1184315, 31.4124776),
-(131, 'zuku', 'customer support', 'office', 0.3422649, 32.5676, 72, '2022-10-21 17:05:53', NULL, 'Kampala', 'Kampala', 'Unknown', NULL, 'Kampala, Kampala on Unknown road', 'Unknown', NULL, NULL);
+(131, 'zuku', 'customer support', 'office', 0.3422649, 32.5676, 72, '2022-10-21 17:05:53', NULL, 'Kampala', 'Kampala', 'Unknown', NULL, 'Kampala, Kampala on Unknown road', 'Unknown', NULL, NULL),
+(132, 'Daily Report and clients activation ', 'FTTH and FTTO/FTTB Daily report \nand Client activation', 'Home ', 0.3377412, 32.4645924, 36, '2022-10-21 22:45:41', '2022-10-22 05:14:34', 'Wakiso', 'Kalambi_kiwumu', 'Wakiso', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Wakiso, Kalambi_kiwumu on Kalambi_kiwumu road', 'Kalambi_kiwumu', 0.3347777, 32.4666567),
+(133, 'Tilenga', 'Designs and documentation', 'Buliisa', 2.1186683, 31.4128767, 38, '2022-10-22 00:13:50', '2022-10-22 04:11:33', 'Buliisa', 'Bulisa', 'Buliisa', 'Buliisa, Bulisa on Bulisa road', 'Buliisa, Bulisa on Bulisa road', 'Bulisa', 2.1183794, 31.4123528),
+(134, 'documents ', 'facs\npass\nboq extraction ', 'office ', 0.3422367, 32.5675741, 33, '2022-10-22 00:24:20', NULL, 'Kampala', 'Kampala', 'Unknown', NULL, 'Kampala, Kampala on Unknown road', 'Unknown', NULL, NULL),
+(135, 'ftth', 'manhole excavation and custing ', 'nakawa', 0.2887547, 32.6066296, 56, '2022-10-22 11:12:31', '2022-10-22 20:11:24', 'Central Region', 'Kampala', 'Kampala', 'Kampala, Kampala on Unknown road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.3131073, 32.584048),
+(136, 'Activating clients on the Waknet daily reports formulating AFCs', 'Activating clients on the Waknet \ndaily reports \nformulating AFCs\n', 'Home ', 0.3347238, 32.4669152, 36, '2022-10-22 12:05:54', '2022-10-23 03:23:16', 'Wakiso', 'Kalambi_kiwumu', 'Wakiso', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Kalambi_kiwumu', 0.3347954, 32.4668747),
+(137, 'Tilenga project', 'Designs completion ', 'buliisa', 2.1245843, 31.4122238, 38, '2022-10-22 12:08:42', NULL, 'Buliisa', 'Kirama', 'Unknown', NULL, 'Buliisa, Kirama on Kirama road', 'Unknown', NULL, NULL),
+(138, 'Zuku FTTH ', 'customer connections and maintenance ', 'munyonyo cluster', 0.2957542, 32.623683, 52, '2022-10-22 12:13:31', '2022-10-23 01:34:08', 'Kampala', 'Kampala', 'Kampala', 'Kampala, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.295661, 32.6242395),
+(139, 'Zuku FTTH ', 'customer connections and maintenance ', 'munyonyo cluster', 0.2954973, 32.6233124, 65, '2022-10-22 12:15:55', '2022-10-23 01:35:37', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.2959704, 32.6240483),
+(140, 'FTTH', 'delivery of material ', 'nakawa', 0.3420661, 32.5676697, 74, '2022-10-22 12:17:09', '2022-10-22 20:25:49', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.3423771, 32.5674188),
+(141, 'Zuku FTTH ', 'Deploy teams, Manage Escalations, Coordinate and Supervise Teams remotely. ', 'WFH', 0.4966433, 32.5426467, 39, '2022-10-22 12:25:58', '2022-10-23 10:53:44', 'Wakiso', 'Nalusuga', 'Wakiso', 'Wakiso, Nalusuga on Unknown road', 'Wakiso, Nalusuga on Unknown road', 'Nalusuga', 0.4966317, 32.542575),
+(142, 'FTTB', 'ecotel kyambogo\n', 'kyambogo ', 0.3890744, 32.5629014, 42, '2022-10-22 12:31:49', '2022-10-23 10:48:27', 'Wakiso', 'Kampala', 'Wakiso', 'Wakiso, Tula on Tula road', 'Wakiso, Kampala on Unknown road', 'Tula', 0.3908344, 32.5625157),
+(143, 'MTN FTTH', 'project management, monitoring and documentation ', 'katende', 0.260295, 32.37372, 59, '2022-10-22 12:42:21', '2022-10-22 23:17:59', 'Mpigi', 'Mabuye', 'Mpigi', 'Mpigi, Kiwamirembe on Kiwamirembe road', 'Mpigi, Mabuye on Mabuye road', 'Kiwamirembe', 0.2671367, 32.3786067),
+(144, 'warehouse ', 'stores work ', 'stores ', 0.3418187, 32.5660365, 34, '2022-10-22 12:43:12', '2022-10-22 19:05:59', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.3418067, 32.567405),
+(145, 'zuku / Simba net', 'cable hauling and new installations', 'Kampala ,lubowa and bunga', 0.3422639, 32.5676, 60, '2022-10-22 12:54:59', '2022-10-23 01:55:07', 'Kampala', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.3286317, 32.54363),
+(146, 'Zuku/Simba project', 'Fibre haulling and zuku installations.', 'Bunga.lubowa and DTB.', 0.3422639, 32.5675989, 63, '2022-10-22 12:57:47', '2022-10-23 00:40:19', 'Kampala', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.3339271, 32.5731998),
+(147, 'FTTH ', 'client: Mawejje Ben Kerry ,fibre installation ', 'kisaasi', 0.3421692, 32.5675368, 64, '2022-10-22 13:31:23', '2022-10-22 23:32:22', 'Kampala', 'Kampala', 'Central Region', 'Central Region, Kampala on Komamboga road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.3840683, 32.5896),
+(148, 'ftth ', 'survey ', 'kamomboga/kirra', 0.3391733, 32.6047061, 67, '2022-10-22 13:34:55', '2022-10-22 21:42:34', 'Kampala', 'Kampala', 'Kampala', 'Kampala, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.3741898, 32.6248658),
+(149, 'zuku', 'dispatching work orders', 'home office ', 0.4273618, 32.451147, 72, '2022-10-22 13:49:13', '2022-10-23 03:02:20', 'Wakiso', 'Nsekwa Musisi', 'Wakiso', 'Wakiso, Kakunyu on Kakunyu road', 'Wakiso, Nsekwa Musisi on Nsekwa Musisi road', 'Kakunyu', 0.4240648, 32.463531),
+(150, 'documents ', 'facs', 'home', 0.2627422, 32.5741779, 33, '2022-10-22 16:12:11', NULL, 'Wakiso', 'Kikajo', 'Unknown', NULL, 'Wakiso, Kikajo on Unknown road', 'Unknown', NULL, NULL),
+(151, 'ftth ', 'trenching ', 'nakawa ', 0.2677699, 32.6218834, 56, '2022-10-23 11:45:28', '2022-10-23 22:29:17', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Kiruddu road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.25708, 32.62457),
+(152, 'zuku', 'dispatching work orders', 'home office', 0.2794206, 32.4614082, 72, '2022-10-23 12:28:11', '2022-10-24 03:25:03', 'Wakiso', 'Nsangi', 'Wakiso', 'Wakiso, Kakunyu on Kakunyu road', 'Wakiso, Nsangi on Nsangi road', 'Kakunyu', 0.4245547, 32.4653001),
+(153, 'zuku FTTH ', 'customer connections and maintenance ', 'munyonyo cluster', 0.2957542, 32.623683, 52, '2022-10-23 12:36:33', '2022-10-24 01:49:56', 'Kampala', 'Kampala', 'Kampala', 'Kampala, Kampala on Unknown road', 'Kampala, Kampala on Unknown road', 'Kampala', 0.2957542, 32.623683),
+(154, 'zuku FTTH ', 'customer connections and maintenance ', 'munyonyo cluster', 0.2954737, 32.6232999, 65, '2022-10-23 12:38:28', '2022-10-24 01:51:20', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Unknown road', 'Central Region, Kampala on Unknown road', 'Kampala', 0.295501, 32.6233108),
+(155, 'ZUKU FTTH', 'Customer connections and maintenance', 'Munyonyo cluster', 0.3282517, 32.5393033, 49, '2022-10-23 12:56:31', '2022-10-23 23:23:24', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Namungoona road', 'Central Region, Kampala on Lugala road', 'Kampala', 0.3283632, 32.5392785),
+(156, 'ZUKU FTTH', 'Customer connections and maintenance', 'Munyonyo cluster', 0.32824, 32.5395433, 68, '2022-10-23 12:58:50', '2022-10-23 23:24:08', 'Central Region', 'Kampala', 'Central Region', 'Central Region, Kampala on Namungoona road', 'Central Region, Kampala on Namungoona road', 'Kampala', 0.3283633, 32.5392783),
+(157, 'Bluestone ( FTTH client)', 'cable stringing traffic rauting and commissioning ', 'Naalya ', 0.3421688, 32.5675328, 45, '2022-10-23 13:06:47', '2022-10-23 20:06:33', 'Kampala', 'Kampala', 'Wakiso', 'Wakiso, Kyaliwajala B on Unknown road', 'Kampala, Kampala on Unknown road', 'Kyaliwajala B', 0.3787193, 32.6452409),
+(158, 'Tilenga', 'designs for phase one', 'Home ', 0.2921143, 32.6262927, 38, '2022-10-23 13:09:30', NULL, 'Central Region', 'Kampala', 'Unknown', NULL, 'Central Region, Kampala on Unknown road', 'Unknown', NULL, NULL),
+(159, 'daily reports and clients activation ', 'Making daily reports \ncompleting clients in the portal ', 'home ', 0.3347084, 32.4669509, 36, '2022-10-23 13:33:06', '2022-10-24 02:38:16', 'Wakiso', 'Kalambi_kiwumu', 'Wakiso', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Wakiso, Kalambi_kiwumu on Kiwumu road', 'Kalambi_kiwumu', 0.3348705, 32.4669177),
+(160, 'ZUKU FTTH ', 'maintenance and Installation ', 'MUNYONYO CLUSTER ', 0.3422643, 32.5676004, 75, '2022-10-24 12:25:31', NULL, 'Kampala', 'Kampala', 'Unknown', NULL, 'Kampala, Kampala on Unknown road', 'Unknown', NULL, NULL),
+(161, 'Zuku FTTH', 'maintenance and connection ', 'munyonyo cluster ', 0.3422641, 32.5676003, 77, '2022-10-24 12:41:32', NULL, 'Kampala', 'Kampala', 'Unknown', NULL, 'Kampala, Kampala on Unknown road', 'Unknown', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -341,13 +376,13 @@ ALTER TABLE `designations`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
 
 --
 -- AUTO_INCREMENT for table `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `task_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=132;
+  MODIFY `task_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=162;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
